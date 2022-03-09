@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    box-sizing: inherit;
+    font-family: sans-serif;
+}
+h2 {
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+h3 {
+    font-family: monospace;
+    font-size: large;
+    padding: 1rem;
+}
+.cards {
+    width: 95%;
+    margin: 1rem auto; 
+    padding: 2rem;  
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    margin: 2rem;
+    display: flex;
+}
